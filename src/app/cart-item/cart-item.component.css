@@ -1,0 +1,17 @@
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.number-input {
+  width: 92px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+}
+
+span {
+    display: inline-block;
+}

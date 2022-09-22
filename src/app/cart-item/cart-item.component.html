@@ -1,0 +1,5 @@
+<img src="{{ cartItemData.url }}" alt="{{ cartItemData.name }}" class="product-image">
+<span>{{ cartItemData.name }}</span>
+<span>{{ cartItemData.price }}$</span>
+<span>Quantity: {{ cartItem.quantity }}</span>
+<button type="button" (click)="removeItemF(cartItem)">Remove from cart</button>

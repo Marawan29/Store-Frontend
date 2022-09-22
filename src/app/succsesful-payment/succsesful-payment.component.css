@@ -1,0 +1,14 @@
+.successful-payment-message {
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+}
+
+.link {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  color: deepskyblue;
+  padding: 12px;
+}

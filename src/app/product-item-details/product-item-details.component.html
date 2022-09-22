@@ -1,0 +1,11 @@
+<div class="product-container">
+  <img src="{{ product.url }}" alt="{{ product.name }}" class="product-image">
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.description }}</p>
+  <p>{{ product.price }}$</p>
+  <form (ngSubmit)="submitForm()">
+  <input type="number" name="quantity" step="1" placeholder="1" min="1" class="select-input" [(ngModel)]="quantity">
+  <input type="submit" value="Add to cart">
+  </form>
+</div>
+<a class="link" routerLink="/">Back to products menu</a>
